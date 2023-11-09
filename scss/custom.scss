@@ -6,19 +6,6 @@
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
 
-:root {
-
---font-size-xxxsm: clamp(0.41rem, -0.06vw + 0.42rem, 0.38rem);
---font-size-xxsm: clamp(0.51rem, -0.02vw + 0.52rem, 0.5rem);
---font-size-xsm: clamp(0.64rem, 0.05vw + 0.63rem, 0.67rem);
---font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
---font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
---font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
---font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
---font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
---font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
---font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
-}
 
 $primary: #A04ADD;
 $secondary: #3B53C7;
@@ -44,13 +31,14 @@ $headings-font-family: 'Libre Baskerville', serif;
 
 
 // Change font sizes for h1-h6 using values in assignment
-$h1-font-size: var(--font-size-xl);
-$h2-font-size: var(--font-size-lg);
-$h3-font-size: var(--font-size-md);
-$h4-font-size: var(--font-size-sm);
-$h5-font-size: var(--font-size-xsm);
-$h6-font-size: var(--font-size-xxsm);
-$line-height-base: 1.2;
+
+$h1-font-size: 3rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1rem;
+$h6-font-size: 0.5rem;
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
